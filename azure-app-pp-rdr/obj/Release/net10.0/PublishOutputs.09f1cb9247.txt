@@ -1,0 +1,7 @@
+/tmp/rider-publish7061739137102961804/azure-app-pp-rdr
+/tmp/rider-publish7061739137102961804/appsettings.Development.json
+/tmp/rider-publish7061739137102961804/appsettings.json
+/tmp/rider-publish7061739137102961804/azure-app-pp-rdr.dll
+/tmp/rider-publish7061739137102961804/azure-app-pp-rdr.deps.json
+/tmp/rider-publish7061739137102961804/azure-app-pp-rdr.runtimeconfig.json
+/tmp/rider-publish7061739137102961804/azure-app-pp-rdr.pdb
