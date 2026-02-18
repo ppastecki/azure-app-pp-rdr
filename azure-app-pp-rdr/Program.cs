@@ -1,3 +1,6 @@
+using azure_app_pp_rdr.Data;
+using Microsoft.EntityFrameworkCore;
+
 namespace azure_app_pp_rdr;
 
 public class Program
@@ -7,6 +10,9 @@ public class Program
         var builder = WebApplication.CreateBuilder(args);
 
         // Add services to the container.
+        var connectionString = builder.Configuration.GetConnectionString("az-webapp-db");
+        builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
+
         builder.Services.AddRazorPages();
         builder.Services.AddApplicationInsightsTelemetry();
 
